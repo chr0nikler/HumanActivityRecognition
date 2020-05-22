@@ -1,7 +1,7 @@
 
-#Human Activity Recognition
+# Human Activity Recognition
 
-##Intro
+## Intro
 
 There are 
 
@@ -14,11 +14,11 @@ There are
 
 Therefore, for our CNN, each sample can be a 125x45 pixel image. There are a total of 60 * 8 = 480 samples per activity. and 480 * 19 = 9120 total samples to work with.
 
-###Data
+### Data
 
 Data is available at the [UCI machine learning repository](https://archive.ics.uci.edu/ml/datasets/Daily+and+Sports+Activities)
 
-###Current Results
+### Current Results
 
 According to [this paper](http://kilyos.ee.bilkent.edu.tr/~billur/publ_list/cj14.pdf) the best results for all sensor use are
 
@@ -30,7 +30,7 @@ All produced by WEKA's ANN (SVM produced extremely similar results)
 
 However, the paper also has results for when only 1 sensor is used for the sample data.
 
-##Goal:
+## Goal:
 
 See how close a CNN using resnet34 or resnet 50 does compared to these results, for one sensor (acceleration) and for all sensors.
 
@@ -39,7 +39,7 @@ Why:
 Simply because I'm following the FastAI course to understand how their library makes creating deep learning neural networks easier to apply.
 And human movement is cool. There's so much to it that we know, and so much we still are trying to understand.
 
-##Plan of Attack
+## Plan of Attack
 
 1. Normalize data as necessary.
 2. Create images for each sample, with 1 sensor (accelerometer)

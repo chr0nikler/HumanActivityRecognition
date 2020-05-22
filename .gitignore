@@ -4,4 +4,6 @@ venv/
 
 data/
 
+images/
+
 .ipynb_checkpoints/
